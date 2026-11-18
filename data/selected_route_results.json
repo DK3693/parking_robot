@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "RETRIEVAL-01",
+    "scenario_type": "storage bay to handoff zone",
+    "planner": "C-AWS search core adapted to a vehicle and two-module assembly",
+    "evaluation_domain": "offline geometry and ideal no-slip wheel-command integration",
+    "path_length_m": 41.862387076095764,
+    "command_samples_60_hz": 13840,
+    "sampled_collision_count": 0,
+    "continuous_separation_lower_bound_positive": true,
+    "steering_angle_violation_count": 0,
+    "wheel_speed_violation_count": 0,
+    "steering_rate_check_pass": true,
+    "wheel_acceleration_check_pass": true,
+    "goal_position_within_0_1m_and_heading_within_2deg": true
+  },
+  {
+    "scenario_id": "RETRIEVAL-02",
+    "scenario_type": "storage bay to handoff zone",
+    "planner": "C-AWS search core adapted to a vehicle and two-module assembly",
+    "evaluation_domain": "offline geometry and ideal no-slip wheel-command integration",
+    "path_length_m": 63.46518313297848,
+    "command_samples_60_hz": 20923,
+    "sampled_collision_count": 0,
+    "continuous_separation_lower_bound_positive": true,
+    "steering_angle_violation_count": 0,
+    "wheel_speed_violation_count": 0,
+    "steering_rate_check_pass": true,
+    "wheel_acceleration_check_pass": true,
+    "goal_position_within_0_1m_and_heading_within_2deg": true
+  }
+]

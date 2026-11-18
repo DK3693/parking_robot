@@ -1,0 +1,39 @@
+{
+  "study": "Four-sensor 2D LiDAR closed-loop axle alignment",
+  "evaluation_domain": "Isaac Sim RTX sensing with ideal no-slip kinematic command integration",
+  "configuration": {
+    "modules": 1,
+    "target_axles": 1,
+    "lidar_sensors": 4,
+    "sensor_layout": "four corners",
+    "vehicle_models": 1,
+    "initial_angles_deg": [
+      -14,
+      -10,
+      -5,
+      0,
+      5,
+      10,
+      14
+    ],
+    "repetitions_per_angle": 2,
+    "representative_statistic": "midpoint of 5th and 95th percentiles for longitudinal tire position"
+  },
+  "sample_size": 14,
+  "successful_trials": 14,
+  "success_criteria": {
+    "longitudinal_abs_mm_max": 20,
+    "lateral_abs_mm_max": 20,
+    "heading_abs_deg_max": 0.75,
+    "sensor_confirmation_required": true,
+    "tire_sweep_check_required": true
+  },
+  "mean_absolute_error": {
+    "longitudinal_mm": 0.08537976863403049,
+    "lateral_mm": 2.108930293890809,
+    "heading_deg": 0.0023174168650846078
+  },
+  "mean_alignment_sim_s": 19.46428672942732,
+  "timing_definition": "Simulation time from trial start to stop, including motion, steering and sensor sampling ticks. CPU wall-clock time is a separate measurement.",
+  "data_role": "Complete 14-run series for the selected fixed-quantile configuration."
+}

@@ -1,0 +1,22 @@
+{
+  "evaluation_domain": "Isaac Sim RTX camera/LiDAR observations in a static scene with ideal kinematic motion",
+  "survey_duration_sim_s": 68.0,
+  "camera_inferences": 136,
+  "side_cameras_active": 2,
+  "forward_camera_active": false,
+  "fresh_frame_rejections": 0,
+  "monitored_bays": 4,
+  "final_bay_states": {
+    "BAY-01": "occupied",
+    "BAY-02": "free",
+    "BAY-03": "occupied",
+    "BAY-04": "free"
+  },
+  "evidence_video": {
+    "frame_count": 680,
+    "duration_s": 68.0,
+    "timestamped_links_checked": 1340,
+    "source_time_consistency_pass": true
+  },
+  "measurement_definition": "Final observation-ledger states for a four-bay static scene; inference counts are processing counts."
+}
