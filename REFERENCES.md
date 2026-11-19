@@ -20,3 +20,11 @@
 - [NumPy quantile](https://numpy.org/doc/stable/reference/generated/numpy.quantile.html) — 분위수 기반 대표점 계산.
 
 공개 저장소에는 프로젝트 설명, 익명화한 결과 데이터 및 범용 평가 도구를 수록합니다. 외부 라이브러리와 원본 알고리즘은 각 배포자의 라이선스와 출처를 따릅니다. 별도 재배포 라이선스는 부여하지 않습니다.
+
+
+## Portfolio presentation references
+
+- [Autoparking](https://github.com/leoll2/Autoparking) — 데모 GIF를 앞에 배치하고 상세 문서로 연결하는 구성 참고.
+- [DMV-AVP](https://github.com/zubxxr/multi-vehicle-avp) — 영상, 구현 기능, 문서로 이어지는 저장소 구성 참고.
+
+위 두 저장소는 표현 구성의 참고 자료입니다. 해당 프로젝트의 영상·이미지·성과를 본 프로젝트의 자료로 사용하지 않았습니다.

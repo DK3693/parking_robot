@@ -1,0 +1,46 @@
+[
+  {
+    "id": "alignment",
+    "title": "차축 정렬",
+    "mp4": "media/alignment.mp4",
+    "preview": "docs/assets/alignment.gif",
+    "source_recording_duration_s": 21.5,
+    "preview_speed_multiplier": 2,
+    "scope": "Isaac rendered playback of recorded wheel-command poses; saved stationary LiDAR overlay, not a fresh sensor run.",
+    "mp4_sha256": "d3951216865f0a866223df0f527855f844f06e34f271a462ea8a25e8fc02cccb",
+    "processing": "Uniform resize and H.264 encoding, audio and container metadata removed; no spatial crop or event removal."
+  },
+  {
+    "id": "perception",
+    "title": "이동 주차칸 인식",
+    "mp4": "media/perception.mp4",
+    "preview": "docs/assets/perception.gif",
+    "source_recording_duration_s": 68.0,
+    "preview_speed_multiplier": 4,
+    "scope": "RTX sensing with ideal kinematic motion; timestamp-linked overhead and camera evidence.",
+    "mp4_sha256": "352c0500bf1c763b9af701ace700e752d6abab83a3383ee7fe7bdaf09ccfef1d",
+    "processing": "Uniform resize and H.264 encoding, audio and container metadata removed; no spatial crop or event removal."
+  },
+  {
+    "id": "inbound",
+    "title": "입차 이동",
+    "mp4": "media/inbound.mp4",
+    "preview": "docs/assets/inbound.gif",
+    "source_recording_duration_s": 99.467,
+    "preview_speed_multiplier": 6,
+    "scope": "Isaac rendering of ideal wheel-command forward integration with ideal rigid payload support.",
+    "mp4_sha256": "b358635cf8ffc30a08e4aa666982c477e585891a4433fbc1eb11c2600cb0a708",
+    "processing": "Uniform resize and H.264 encoding, audio and container metadata removed; no spatial crop or event removal."
+  },
+  {
+    "id": "retrieval",
+    "title": "출차 이동",
+    "mp4": "media/retrieval.mp4",
+    "preview": "docs/assets/retrieval.gif",
+    "source_recording_duration_s": 116.034,
+    "preview_speed_multiplier": 6,
+    "scope": "Isaac rendering of ideal wheel-command forward integration with ideal rigid payload support.",
+    "mp4_sha256": "90e231d729dab722fab7c83e022cb3713f767a6fef1254059af6ab0d7a200d78",
+    "processing": "Uniform resize and H.264 encoding, audio and container metadata removed; no spatial crop or event removal."
+  }
+]

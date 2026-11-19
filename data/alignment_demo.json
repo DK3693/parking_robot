@@ -1,0 +1,19 @@
+{
+  "initial_yaw_deg": -12,
+  "configuration": "four-corner LiDAR, fixed 5–95% longitudinal midpoint",
+  "coarse_error": {
+    "long_cm": -5.033097222068079,
+    "lateral_cm": -2.7470794115896418,
+    "yaw_deg": -0.6215413441645978
+  },
+  "final_error": {
+    "long_cm": 0.005705023747821604,
+    "lateral_cm": -0.2027826254050689,
+    "yaw_deg": 0.006017848491580935
+  },
+  "total_sim_s": 21.383334448561072,
+  "measurements": 5,
+  "refinement_moves": 1,
+  "success": true,
+  "scope": "RTX observations with ideal kinematics; separate demonstration, not part of the 14-trial table"
+}
