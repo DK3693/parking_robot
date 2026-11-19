@@ -14,20 +14,20 @@ Python · ROS 2 · NVIDIA Isaac Sim · RTX LiDAR · PhysX · YOLO · AprilTag
 
 ## Demonstrations
 
-**네 가지 동작을 영상으로 확인할 수 있습니다.** 미리보기는 전체 구간을 일정 비율로 배속한 GIF입니다. 각 영상을 클릭하면 원래 시간축의 MP4로 이동합니다.
+**네 가지 동작을 영상으로 확인할 수 있습니다.** 미리보기는 전체 구간을 일정 비율로 배속한 GIF입니다. 각 미리보기를 클릭하면 원래 시간축의 MP4 파일을 다운로드할 수 있습니다.
 
 <table>
 <tr>
-<td width="50%"><b>01 · 차축 정렬</b><br><a href="media/alignment.mp4"><img src="docs/assets/alignment.gif" width="100%" alt="Vehicle axle alignment in Isaac Sim"></a><br>차량 기울기 −12° · 중심선 접근 → 진입 → 보정<br><sub>2× 미리보기 · 기록된 명령의 Isaac Sim 재생</sub></td>
-<td width="50%"><b>02 · 이동 중 주차칸 인식</b><br><a href="media/perception.mp4"><img src="docs/assets/perception.gif" width="100%" alt="Parking inventory with overhead and camera evidence"></a><br>상부 시점 + 좌우 카메라 + 칸별 판정 근거<br><sub>4× 미리보기 · RTX 관측 / 이상 운동학 이동</sub></td>
+<td width="50%" valign="top"><b>01 · 차축 정렬</b><br><a href="https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/alignment.mp4"><img src="docs/assets/alignment.gif" width="100%" alt="Vehicle axle alignment in Isaac Sim"></a><br>차량 기울기 −12° · 중심선 접근 → 진입 → 보정<br><sub>2× 미리보기 · 기록된 명령의 Isaac Sim 재생</sub></td>
+<td width="50%" valign="top"><b>02 · 이동 중 주차칸 인식</b><br><a href="https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/perception.mp4"><img src="docs/assets/perception.gif" width="100%" alt="Parking inventory with overhead and camera evidence"></a><br>상부 시점 + 좌우 카메라 + 칸별 판정 근거<br><sub>4× 미리보기 · RTX 관측 / 이상 운동학 이동</sub></td>
 </tr>
 <tr>
-<td width="50%"><b>03 · 입차 구역 → 저장 칸</b><br><a href="media/inbound.mp4"><img src="docs/assets/inbound.gif" width="100%" alt="Inbound vehicle transport in the parking environment"></a><br>전체 계획 경로와 두 모듈의 실행 위치<br><sub>6× 미리보기 · 이상 지지 / 바퀴 명령 적분</sub></td>
-<td width="50%"><b>04 · 저장 칸 → 출차 구역</b><br><a href="media/retrieval.mp4"><img src="docs/assets/retrieval.gif" width="100%" alt="Vehicle retrieval from storage to handoff"></a><br>주차장 내 회수 이동과 최종 접근<br><sub>6× 미리보기 · 이상 지지 / 바퀴 명령 적분</sub></td>
+<td width="50%" valign="top"><b>03 · 입차 구역 → 저장 칸</b><br><a href="https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/inbound.mp4"><img src="docs/assets/inbound.gif" width="100%" alt="Inbound vehicle transport in the parking environment"></a><br>전체 계획 경로와 두 모듈의 실행 위치<br><sub>6× 미리보기 · 이상 지지 / 바퀴 명령 적분</sub></td>
+<td width="50%" valign="top"><b>04 · 저장 칸 → 출차 구역</b><br><a href="https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/retrieval.mp4"><img src="docs/assets/retrieval.gif" width="100%" alt="Vehicle retrieval from storage to handoff"></a><br>주차장 내 회수 이동과 최종 접근<br><sub>6× 미리보기 · 이상 지지 / 바퀴 명령 적분</sub></td>
 </tr>
 </table>
 
-[정렬 MP4](media/alignment.mp4) · [주차 인식 MP4](media/perception.mp4) · [입차 MP4](media/inbound.mp4) · [출차 MP4](media/retrieval.mp4) · [영상별 설명과 정지 화면](docs/MEDIA.md)
+[정렬 MP4](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/alignment.mp4) · [주차 인식 MP4](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/perception.mp4) · [입차 MP4](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/inbound.mp4) · [출차 MP4](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/retrieval.mp4) · [영상별 설명과 정지 화면](docs/MEDIA.md)
 
 영상은 실제 Isaac Sim 렌더링 자료입니다. 정렬 영상은 저장된 명령·자세의 재생이며, 주차 인식 영상은 RTX 관측 기록입니다. 입·출차 영상은 **이상적인 차량 지지와 바퀴 명령 적분을 이용한 이동 시연**입니다. 각 영상의 시험 범위와 아래 정량 결과의 데이터 집합은 구분하여 표기했습니다.
 

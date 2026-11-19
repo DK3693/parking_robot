@@ -13,7 +13,7 @@
 
 ## 01 · Axle alignment
 
-[![차축 정렬 정지 화면](assets/alignment-still.jpg)](../media/alignment.mp4)
+[![차축 정렬 정지 화면](assets/alignment-still.jpg)](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/alignment.mp4)
 
 **확인할 내용:** 기울어진 차량의 중심선에 위치와 방향을 맞춘 뒤 직선으로 진입하고, 차축 부근에서 다시 측정해 잔여 오차를 보정합니다.
 
@@ -22,11 +22,11 @@
 - 노란 외곽·방향 표시는 로봇 기준 형상을 보여줍니다. 점 표시는 최근 정지 측정의 저장된 LiDAR 관측이며, 영상 재생 중 새 센서 추론을 수행한 것은 아닙니다.
 - 14회 정렬 표와 별도의 시연입니다. 보정 전후 값은 [시연 데이터](../data/alignment_demo.json)에서 확인할 수 있습니다.
 
-[MP4 보기](../media/alignment.mp4) · [움직이는 미리보기](assets/alignment.gif)
+[MP4 다운로드](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/alignment.mp4) · [움직이는 미리보기](assets/alignment.gif)
 
 ## 02 · Parking perception
 
-[![주차칸 인식 대시보드](assets/perception-still.jpg)](../media/perception.mp4)
+[![주차칸 인식 대시보드](assets/perception-still.jpg)](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/perception.mp4)
 
 **확인할 내용:** 상부 시점의 순찰 위치, 좌우 카메라의 검출 상자, 주차칸 상태와 판단 근거가 같은 화면에 연결됩니다.
 
@@ -35,14 +35,14 @@
 - 검출 상자의 점수는 차량 검출기 출력이며, 최종 주차칸 판정의 정답률을 뜻하지 않습니다.
 - 카메라 타일은 최신 사용 프레임을 유지할 수 있으므로, 표시된 촬영 시각과 현재 실행 시각을 함께 읽습니다.
 
-[MP4 보기](../media/perception.mp4) · [판정 집계](../data/perception_summary.json)
+[MP4 다운로드](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/perception.mp4) · [판정 집계](../data/perception_summary.json)
 
 <a id="transport"></a>
 ## 03–04 · Inbound and retrieval transport
 
 | 입차 구역 → 저장 칸 | 저장 칸 → 출차 구역 |
 |---|---|
-| [![입차 이동](assets/inbound-still.jpg)](../media/inbound.mp4) | [![출차 이동](assets/retrieval-still.jpg)](../media/retrieval.mp4) |
+| [![입차 이동](assets/inbound-still.jpg)](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/inbound.mp4) | [![출차 이동](assets/retrieval-still.jpg)](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/retrieval.mp4) |
 
 **확인할 내용:** 노란 선은 전체 계획 경로이고, 초록 표시는 실행된 두 모듈 중점입니다. 차량과 두 모듈이 함께 이동하며 주차장 안에서 방향을 바꾸고 목표 구역에 접근합니다.
 
@@ -52,7 +52,7 @@
 
 궤적은 두 시연의 실행 기록을 같은 원점으로 평행 이동한 것입니다. 공개 CSV에는 60 Hz 기록을 약 1초 간격으로 추출하고 마지막 샘플을 포함했습니다. 장애물 지도는 이 도표에 포함하지 않았으며, 실제 장면 배치는 영상을 참고할 수 있습니다.
 
-[입차 MP4](../media/inbound.mp4) · [출차 MP4](../media/retrieval.mp4) · [기록 궤적](../data/transport_demo_traces.csv)
+[입차 MP4](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/inbound.mp4) · [출차 MP4](https://github.com/DK3693/parking_robot/raw/refs/heads/main/media/retrieval.mp4) · [기록 궤적](../data/transport_demo_traces.csv)
 
 ## Visual reading guide
 
